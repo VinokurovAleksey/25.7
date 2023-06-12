@@ -20,5 +20,18 @@ git merge release
 ---------------------------------
 3.
 ---------------------------------
+git branch hotfix
+git checkout hotfix
+//выполнены срочные правки
+git add .
+git commit -m'срочные правки'
+git checkout master
+git merge hotfix
+git checkout develop
+git merge hotfix
+----------------------------------
+
+
+
 
 
