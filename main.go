@@ -13,3 +13,5 @@ func main() {
     }
     fmt.Printf("Вы ввели данные: %d\n", n)
 }
+
+11
